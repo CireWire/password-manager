@@ -9,4 +9,4 @@ services:
       - ./data:/app/data
     environment:
       - PASSWORD_MANAGER_KEY=secretkey
-    command: python app.py
+    command: python password_manager.py
