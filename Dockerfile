@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000
 
 # Start the app with the "python" command
-CMD ["python", "app.py"]
+CMD ["python", "password_manager.py"]
