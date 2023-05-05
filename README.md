@@ -9,7 +9,7 @@ To install and run the Password Manager App locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/password-manager.git
+   git clone https://github.com/CireWire/password-manager.git
    ```
 
 2. Change into the project directory:
@@ -42,7 +42,7 @@ To install and run the Password Manager App locally, follow these steps:
 6. Run the app:
 
    ```bash
-   python app.py
+   python password_manager.py
    ```
 
 7. Access the app in your web browser at [http://localhost:8000](http://localhost:8000)
@@ -54,7 +54,7 @@ To run the Password Manager App with Docker, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/password-manager.git
+   git clone https://github.com/CireWire/password-manager.git
    ```
 
 2. Change into the project directory:
@@ -92,13 +92,13 @@ Once the app is running, you can use the command-line interface or the web-based
 - Add a new password to the password manager:
 
   ```bash
-  python app.py add gmail mypassword123
+  python password_manager.py add gmail mypassword123
   ```
 
 - Retrieve a password from the password manager and copy it to the clipboard:
 
   ```bash
-  python app.py get gmail
+  python password_manager.py get gmail
   ```
 
   Note: this will copy the password to the clipboard automatically.
@@ -106,13 +106,13 @@ Once the app is running, you can use the command-line interface or the web-based
 - List all the passwords stored in the password manager:
 
   ```bash
-  python app.py list
+  python password_manager.py list
   ```
 
 - Delete a password from the password manager:
 
   ```bash
-  python app.py delete gmail
+  python password_manager.py delete gmail
   ```
 
 ## Disclaimers and Warnings
